@@ -1,0 +1,35 @@
+h2,h3,h5 {
+  margin: auto;
+  font-size: 60px;
+  text-align: center;
+}
+h1:hover,h2:hover,h3:hover,h5:hover{
+  color:blue;
+}
+p, li {
+  margin:0;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+html{
+  background-color: #000000;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+img {
+  display: block;
+  margin: auto;
+
+}
+
+.head { display: table; width: 100%; background-color:#cc0000; color:white; }
+.hello { display: table-cell; text-align: left; }
+.h1  { display: table-cell; text-align: center; }
+.world     { display: table-cell; text-align: right; }
